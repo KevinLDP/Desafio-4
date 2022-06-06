@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(79, 79, 79);
+    font-family: 'Shadows Into Light', cursive;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+    #padre{
+        display: grid;
+        grid-template-areas: "navbar navbar navbar navbar navbar" "datos historia historia historia historia" "datos clasificacion clasificacion clasificacion clasificacion" "datos dieta dieta dieta dieta" "footer footer footer footer footer";
+        grid-template-columns:20% 20% 20% 20% 20%;
+        grid-template-rows: 60px 190px 638px 1300px 60px;
+    }
+    .canNav{
+        grid-area: navbar;
+    }
+    .canDatos{
+        grid-area: datos;
+    }
+    .canHistoria{
+        grid-area: historia;
+    }
+    .canClasificacion{
+        grid-area: clasificacion;
+    }
+    .canDieta{
+        grid-area: dieta;
+    }
+    .canFooter{
+        grid-area: footer;
+    }
+
+}
+@media only screen and (min-width: 1440px){
+    #padre{
+        display: grid;
+        grid-template-areas: "navbar navbar navbar navbar navbar" "datos historia historia historia historia" "datos clasificacion clasificacion clasificacion clasificacion" "datos dieta dieta dieta dieta" "footer footer footer footer footer";
+        grid-template-columns:20% 20% 20% 20% 20%;
+        grid-template-rows: 60px 150px 620px 680px;
+    }
+    .canNav{
+        grid-area: navbar;
+    }
+    .canDatos{
+        grid-area: datos;
+    }
+    .canHistoria{
+        grid-area: historia;
+    }
+    .canClasificacion{
+        grid-area: clasificacion;
+    }
+    .canDieta{
+        grid-area: dieta;
+    }
+    .canFooter{
+        grid-area: footer;
+    }
+
+}
